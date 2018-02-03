@@ -1,6 +1,6 @@
 {
     "name": "medal-cli",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Medal CLI - Used to manage sites with the Medal static site generator.",
     "main": "lib/medal.js",
     "scripts": {
