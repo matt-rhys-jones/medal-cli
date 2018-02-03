@@ -7,7 +7,7 @@
         "test": "cross-env NODE_ENV=test nyc mocha test/**/*.test.js",
         "build": "babel src --out -d lib",
         "lint": "eslint src",
-        "prepublish": "build"
+        "prepublish": "npm build"
     },
     "bin": {
         "medal": "lib/medal.js"
