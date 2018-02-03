@@ -1,0 +1,8 @@
+{
+    "medal": {
+        "repository": {
+            "url": "https://github.com/matt-rhys-jones/medal.git",
+            "tag": "v0.3.4"
+        }
+    }
+}

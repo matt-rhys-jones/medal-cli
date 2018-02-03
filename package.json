@@ -1,0 +1,53 @@
+{
+    "name": "medal-cli",
+    "version": "0.1.0",
+    "description": "Medal CLI",
+    "main": "lib/medal.js",
+    "scripts": {
+        "test": "cross-env NODE_ENV=test nyc mocha test/**/*.test.js",
+        "build": "babel src --out -d lib",
+        "lint": "eslint src"
+    },
+    "bin": {
+        "medal": "lib/medal.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/matt-rhys-jones/medal-cli.git"
+    },
+    "keywords": [
+        "static",
+        "site",
+        "generator"
+    ],
+    "author": "Matthew Rhys Jones",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/matt-rhys-jones/medal-cli/issues"
+    },
+    "homepage": "https://github.com/matt-rhys-jones/medal-cli#readme",
+    "dependencies": {
+        "commander": "^2.13.0",
+        "fs-extra": "^5.0.0",
+        "shelljs": "^0.8.1"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-plugin-istanbul": "^4.1.5",
+        "babel-preset-env": "^1.6.1",
+        "babel-register": "^6.26.0",
+        "chai": "^4.1.2",
+        "cross-env": "^5.1.3",
+        "eslint": "^4.17.0",
+        "mocha": "^5.0.0",
+        "nyc": "^11.4.1",
+        "sinon": "^4.2.2"
+    },
+    "nyc": {
+        "require": [
+            "babel-register"
+        ],
+        "sourceMap": false,
+        "instrument": false
+    }
+}
