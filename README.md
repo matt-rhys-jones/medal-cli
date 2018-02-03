@@ -4,7 +4,7 @@ Medal is a markdown static site generator. This is the CLI that will enable you 
 
 # Install
 
-`npm install medal`
+`npm install medal-cli -g`
 
 # Usage
 ```
