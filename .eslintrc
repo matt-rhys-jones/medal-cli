@@ -1,0 +1,14 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module"
+    },
+    "globals": {
+        "process": true,
+        "console": true
+    },
+    "rules":{
+        "no-console": 0
+    }
+}
